@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="id" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aisy Mahfitah Marwazi — Web Developer</title>
+  <meta name="description" content="Portofolio Aisy Mahfitah Marwazi. Saya bangun website yang orang benar-benar pakai, bukan cuma bagus di screenshot.">
+  
+  <!-- Bootstrap 5.3.9 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+  
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="80">
+
+  <!-- ========== NAVBAR ========== -->
+  <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold mono" href="#hero">AMW<span style="color:var(--accent)">.</span></a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyek">Proyek</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeri">Galeri</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pengalaman">Pengalaman</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sertifikat">Sertifikat</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimoni">Testimoni</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+          <li class="nav-item ms-lg-2">
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+              <i class="bi bi-moon-stars" id="themeIcon"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <header id="hero" class="hero">
+    <div class="hero-bg" id="heroBg"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="hero-tag mono" data-aos="fade-down">Student · Aspiring Web Developer</div>
+          <h1 class="text-white" data-aos="fade-up" data-aos-delay="100">
+            Aisy Mahfitah Marwazi
+          </h1>
+          <p class="tagline text-white-50" data-aos="fade-up" data-aos-delay="200">
+            <span id="typingText" class="typing-cursor"></span>
+          </p>
+          <p class="text-white-50 mt-3 mb-4" style="max-width:480px" data-aos="fade-up" data-aos-delay="300">
+            Saya memiliki ketertarikan pada pengembangan website dan desain digital. Saya senang mempelajari teknologi baru, membangun proyek website, serta mengembangkan kemampuan untuk menciptakan tampilan web yang menarik, responsif, dan mudah digunakan.
+          </p>
+          <div class="d-flex flex-wrap gap-3" data-aos="fade-up" data-aos-delay="400">
+            <a href="#proyek" class="btn btn-accent">Lihat Proyek</a>
+            <a href="#kontak" class="btn btn-outline-light-custom">Hubungi Saya</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  
+<!-- ========== 1. TENTANG SAYA ========== -->
+<section id="tentang" class="bg-body">
+  <div class="container">
+    <div class="row align-items-center g-5">
+
+      <!-- Deskripsi Tentang Saya -->
+      <div class="col-lg-5" data-aos="fade-right">
+        <div class="accent-line"></div>
+
+        <h2 class="section-title">Sedikit tentang saya</h2>
+
+        <p class="section-subtitle">
+          Mengenal saya dan ketertarikan saya di bidang teknologi.
+        </p>
+
+        <p>
+          Perkenalkan, saya Aisy Mahfitah Marwazi.
+          Saya adalah seorang pelajar yang memiliki ketertarikan
+          pada bidang teknologi, khususnya pengembangan website
+          dan desain digital.
+        </p>
+
+        <p>
+          Saya sedang mengembangkan kemampuan dalam HTML, CSS,
+          dan JavaScript untuk membangun tampilan website yang
+          menarik dan responsif. Selain itu, saya juga mulai
+          mempelajari PHP dan database sebagai dasar pengembangan
+          website yang lebih dinamis.
+        </p>
+
+        <p class="mb-0">
+          Saya juga memiliki ketertarikan dalam desain visual
+          menggunakan Canva. Melalui berbagai proyek dan latihan,
+          saya terus berusaha meningkatkan keterampilan,
+          kreativitas, serta kemampuan dalam menyelesaikan masalah.
+          Bagi saya, belajar teknologi adalah proses yang
+          membutuhkan rasa ingin tahu, konsistensi, dan kemauan
+          untuk terus berkembang.
+        </p>
+      </div>
+
+      <!-- Kemampuan -->
+      <div class="col-lg-7">
+        <div class="row g-3">
+
+          <div class="col-6 col-md-3" data-aos="zoom-in">
+            <div class="stat-card">
+              <div class="stat-number">HTML</div>
+              <div class="stat-label">Struktur Website</div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3" data-aos="zoom-in"
+               data-aos-delay="100">
+            <div class="stat-card">
+              <div class="stat-number">CSS</div>
+              <div class="stat-label">Desain Website</div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3" data-aos="zoom-in"
+               data-aos-delay="200">
+            <div class="stat-card">
+              <div class="stat-number">JS</div>
+              <div class="stat-label">Interaktivitas</div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3" data-aos="zoom-in"
+               data-aos-delay="300">
+            <div class="stat-card">
+              <div class="stat-number">PHP</div>
+              <div class="stat-label">Dasar Backend</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- ========== 2. SKILLS & TOOLS ========== -->
+  <section id="skills" class="bg-body-tertiary">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <div class="accent-line mx-auto"></div>
+        <h2 class="section-title">Skills & Tools</h2>
+        <p class="section-subtitle">Berbagai teknologi dan tools yang saya gunakan untuk belajar, berlatih, dan mengembangkan proyek digital.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="skill-category">Frontend Core</div>
+          <div>
+            <span class="skill-pill"><i class="bi bi-filetype-html"></i> HTML5</span>
+            <span class="skill-pill"><i class="bi bi-filetype-css"></i> CSS3 / SCSS</span>
+            <span class="skill-pill"><i class="bi bi-filetype-js"></i> JavaScript</span>
+            <span class="skill-pill"><i class="bi bi-bootstrap"></i> Bootstrap 5</span>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="skill-category">Backend & Database</div>
+          <div>
+            <span class="skill-pill"><i class="bi bi-filetype-php"></i> PHP Dasar</span>
+            <span class="skill-pill"><i class="bi bi-database"></i> MySQL Dasar</span>
+            <span class="skill-pill"><i class="bi bi-code-slash"></i> CRUD Dasar</span>
+            <span class="skill-pill"><i class="bi bi-box"></i> Laragon</span>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="skill-category">Tools & Design</div>
+          <div>
+            <span class="skill-pill"><i class="bi bi-code-slash"></i> Visual Studio Code</span>
+            <span class="skill-pill"><i class="bi bi-file-earmark-text"></i> Microsoft Office</span>
+            <span class="skill-pill"><i class="bi bi-palette"></i> Canva</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 3. DAFTAR PROYEK ========== -->
+  <section id="proyek">
+    <div class="container">
+      <div class="d-flex flex-wrap justify-content-between align-items-end mb-4" data-aos="fade-up">
+        <div>
+          <div class="accent-line"></div>
+          <h2 class="section-title">Proyek yang pernah saya kerjain</h2>
+          <p class="section-subtitle mb-0">Beberapa yang bisa saya ceritain. Sisanya masih di NDA.</p>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <!-- Project 1 - Website -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="project-card">
+            <img src="about.jpg" alt="Website Portal Berita BeritaKini" loading="lazy">
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="project-tag">Website</span>
+                <span class="project-tag">Bootstrap</span>
+                <span class="project-tag">Vanilla JS</span>
+              </div>
+              <h3 class="project-title">BeritaKini — Portal Berita</h3>
+              <p class="project-desc">Portal berita dengan 14 artikel di 6 kategori. Ada pencarian, mode gelap, breaking news ticker, plus fitur suka, simpan, dan komentar.</p>
+              <button class="btn btn-sm btn-outline-secondary mt-3 align-self-start" data-bs-toggle="modal" data-bs-target="#modalProyek1">Detail</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 - Website -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-card">
+            <img src="sekolah.png" alt="Sistem Absensi Sekolah" loading="lazy">
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="project-tag">Web App</span>
+                <span class="project-tag">Bootstrap</span>
+                <span class="project-tag">Chart.js</span>
+              </div>
+              <h3 class="project-title">Sistem Absensi Sekolah</h3>
+              <p class="project-desc">Aplikasi absensi dengan dua portal: siswa absen masuk dan pulang, admin kelola data, lihat grafik, dan export laporan.</p>
+              <button class="btn btn-sm btn-outline-secondary mt-3 align-self-start" data-bs-toggle="modal" data-bs-target="#modalProyek2">Detail</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-card">
+            <img src="m1.png" alt="Undangan Pernikahan Digital" loading="lazy">
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="project-tag">Landing Page</span>
+                <span class="project-tag">Animation</span>
+                <span class="project-tag">Vanilla JS</span>
+              </div>
+              <h3 class="project-title">Undangan Pernikahan Digital</h3>
+              <p class="project-desc">Undangan online dengan cover pembuka, musik latar, countdown, galeri, RSVP, dan nama tamu otomatis dari link.</p>
+              <button class="btn btn-sm btn-outline-secondary mt-3 align-self-start" data-bs-toggle="modal" data-bs-target="#modalProyek3">Detail</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="project-card">
+            <img src="bg.png" alt="Website Toko Gadget GrokStore" loading="lazy">
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="project-tag">E-commerce</span>
+                <span class="project-tag">API</span>
+                <span class="project-tag">Vanilla JS</span>
+              </div>
+              <h3 class="project-title">GrokStore — Toko Gadget</h3>
+              <p class="project-desc">Toko gadget dengan data produk dari API, flash sale berhitung mundur, pencarian, keranjang yang tersimpan, dan checkout.</p>
+              <button class="btn btn-sm btn-outline-secondary mt-3 align-self-start" data-bs-toggle="modal" data-bs-target="#modalProyek4">Detail</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-card">
+            <img src="cuaca.jpg" alt="Website Prakiraan Cuaca CuacaID" loading="lazy">
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="project-tag">Web App</span>
+                <span class="project-tag">API</span>
+                <span class="project-tag">Bootstrap</span>
+              </div>
+              <h3 class="project-title">CuacaID — Prakiraan Cuaca</h3>
+              <p class="project-desc">Website cuaca real-time untuk Indonesia: cari kota, prakiraan per jam dan 5 hari, kualitas udara, serta info gempa BMKG.</p>
+              <button class="btn btn-sm btn-outline-secondary mt-3 align-self-start" data-bs-toggle="modal" data-bs-target="#modalProyek5">Detail</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-card">
+            <img src="resep.png" alt="RasaNusantara — Resep Masakan" loading="lazy">
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="project-tag">Web App</span>
+                <span class="project-tag">API</span>
+                <span class="project-tag">Bootstrap</span>
+                <span class="project-tag">Vanilla JS</span>
+              </div>
+              <h3 class="project-title">RasaNusantara — Resep Masakan</h3>
+              <p class="project-desc">Website resep modern dengan pencarian, filter kategori, resep terbaru & populer dari TheMealDB API, plus modal detail lengkap bahan dan langkah memasak.</p>
+              <button class="btn btn-sm btn-outline-secondary mt-3 align-self-start" data-bs-toggle="modal" data-bs-target="#modalProyek6">Detail</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 4. GALERI KARYA ========== -->
+  <section id="galeri" class="bg-body-tertiary">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <div class="accent-line mx-auto"></div>
+        <h2 class="section-title">Galeri Karya</h2>
+        <p class="section-subtitle">Screenshot, mockup, dan beberapa eksperimen visual.</p>
+      </div>
+
+      <div id="galleryCarousel" class="carousel slide gallery-carousel" data-bs-ride="carousel" data-aos="zoom-in">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner rounded-3 overflow-hidden">
+          <div class="carousel-item active">
+            <img src="m1.png" class="d-block w-100" alt="Undangan Pernikahan">
+            <div class="carousel-caption">
+              <h5>Undangan Pernikahan</h5>
+              <p>Cover pembuka dan countdown flip yang bikin tamu betah scroll sampai bawah.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="about.jpg" class="d-block w-100" alt="Halaman Artikel BeritaKini">
+            <div class="carousel-caption">
+              <h5>Halaman Artikel BeritaKini</h5>
+              <p>Bar progres membaca, estimasi waktu baca, dan komentar biar enak diikuti sampai habis.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="bg.png" class="d-block w-100" alt="Hero GrokStore">
+            <div class="carousel-caption">
+              <h5>Hero GrokStore</h5>
+              <p>Banner dengan efek parallax dan label harga bergaya kartu tag.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="resep.png" class="d-block w-100" alt="RasaNusantara — Resep Masakan">
+            <div class="carousel-caption">
+              <h5>RasaNusantara</h5>
+              <p>Website resep dengan pencarian, filter kategori, dan detail bahan serta langkah memasak dari TheMealDB API.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 5. PENGALAMAN & PENDIDIKAN ========== -->
+  <section id="pengalaman">
+    <div class="container">
+      <div class="row g-5">
+
+<div class="col-lg-6" data-aos="fade-right">
+  <div class="accent-line"></div>
+  <h2 class="section-title">Pengalaman</h2>
+
+  <div class="timeline mt-4">
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+
+      <div class="timeline-date">2024 — Sekarang</div>
+
+      <h5 class="mb-1">Student Developer</h5>
+
+      <p class="text-muted small mb-1">
+        Proyek Sekolah
+      </p>
+
+      <p class="mb-0">
+        Mulai mengenal dunia pemrograman melalui pembelajaran
+        Rekayasa Perangkat Lunak (RPL), termasuk dasar-dasar
+        HTML, CSS, pemrograman, dan pengembangan aplikasi sederhana.
+      </p>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+
+      <div class="timeline-date">2025 — Sekarang</div>
+
+      <h5 class="mb-1">Frontend Developer</h5>
+
+      <p class="text-muted small mb-1">
+        Personal Project
+      </p>
+
+      <p class="mb-0">
+        Mulai mengembangkan kemampuan dalam pembuatan website
+        menggunakan HTML, CSS, dan JavaScript. Berfokus pada
+        desain antarmuka, responsivitas, serta kenyamanan pengguna.
+      </p>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+
+      <div class="timeline-date">2026 — Sekarang</div>
+
+      <h5 class="mb-1">Web Developer</h5>
+
+      <p class="text-muted small mb-1">
+        Pengembangan Website
+      </p>
+
+      <p class="mb-0">
+        Melanjutkan pengembangan keterampilan di bidang web
+        development dengan mempelajari PHP, MySQL, pengelolaan
+        database, serta penerapan fitur website yang lebih interaktif.
+      </p>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="col-lg-6" data-aos="fade-left">
+  <div class="accent-line"></div>
+  <h2 class="section-title">Pendidikan</h2>
+
+  <div class="timeline mt-4">
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+
+      <div class="timeline-date">2024 — 2027</div>
+
+      <h5 class="mb-1">SMK Pesantren Tanwirrussunnah Gowa</h5>
+
+      <p class="text-muted small mb-1">
+        Rekayasa Perangkat Lunak (RPL)
+      </p>
+
+      <p class="mb-0">
+        Siswa kelas XII yang berfokus mempelajari pemrograman,
+        pengembangan website, pengelolaan database, serta dasar-dasar
+        pengembangan perangkat lunak. Aktif mengembangkan keterampilan
+        melalui praktik dan proyek berbasis teknologi.
+      </p>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 6. SERTIFIKAT & PENGHARGAAN ========== -->
+  <section id="sertifikat" class="bg-body-tertiary">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <div class="accent-line mx-auto"></div>
+        <h2 class="section-title">Sertifikat & Hal yang Pernah Dicapai</h2>
+        <p class="section-subtitle">Setiap proses belajar, proyek, dan pengalaman menjadi bagian dari perjalanan saya dalam mengembangkan keterampilan di bidang teknologi dan web development.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+          <div class="cert-card">
+            <div class="cert-icon"><i class="bi bi-award"></i></div>
+            <h6 class="fw-semibold">Pembelajaran Web Development</h6>
+            <p class="small text-muted mb-0">Pembelajaran Mandiri · 2024</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+          <div class="cert-card">
+            <div class="cert-icon"><i class="bi bi-code-square"></i></div>
+            <h6 class="fw-semibold">Proyek Rekayasa Perangkat Lunak</h6>
+            <p class="small text-muted mb-0">Proyek RPL · 2026</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+          <div class="cert-card">
+            <div class="cert-icon"><i class="bi bi-lightning-charge"></i></div>
+            <h6 class="fw-semibold">Proyek Pengembangan Website</h6>
+            <p class="small text-muted mb-0">Praktik Sekolah · 2024</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+          <div class="cert-card">
+            <div class="cert-icon"><i class="bi bi-trophy"></i></div>
+            <h6 class="fw-semibold">Pengembangan Database</h6>
+            <p class="small text-muted mb-0">Pengembangan Mandiri · 2026</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 7. TESTIMONI ========== -->
+  <section id="testimoni">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <div class="accent-line mx-auto"></div>
+        <h2 class="section-title">Kesan & Apresiasi</h2>
+        <p class="section-subtitle">Setiap proses belajar dan pengerjaan proyek memberikan pengalaman serta masukan yang membantu saya terus berkembang di bidang teknologi.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="testimonial-card">
+            <p class="testimonial-text">“Memiliki semangat belajar yang baik dan menunjukkan ketertarikan dalam bidang pemrograman. Terus tingkatkan kemampuan dan jangan berhenti mencoba hal baru.”</p>
+            <div class="d-flex align-items-center gap-3">
+              <div class="rounded-circle bg-secondary d-flex align-items-center justify-content-center" style="width:44px;height:44px;font-weight:600;color:#fff">G</div>
+              <div>
+                <div class="testimonial-author">Guru Pembimbing</div>
+                <div class="testimonial-role">Sekolah</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="testimonial-card">
+            <p class="testimonial-text">“Mampu bekerja sama dalam menyelesaikan tugas proyek dan memiliki kemauan untuk memahami hal-hal baru, khususnya dalam pengembangan website.”</p>
+            <div class="d-flex align-items-center gap-3">
+              <div class="rounded-circle bg-secondary d-flex align-items-center justify-content-center" style="width:44px;height:44px;font-weight:600;color:#fff">A</div>
+              <div>
+                <div class="testimonial-author">Amirah Balqis</div>
+                <div class="testimonial-role">Proyek Sekolah</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="testimonial-card">
+            <p class="testimonial-text">“Memiliki ketertarikan dalam dunia teknologi dan terus berusaha mengembangkan keterampilan melalui praktik serta proyek yang dikerjakan.”</p>
+            <div class="d-flex align-items-center gap-3">
+              <div class="rounded-circle bg-secondary d-flex align-items-center justify-content-center" style="width:44px;height:44px;font-weight:600;color:#fff">Q</div>
+              <div>
+                <div class="testimonial-author">Qanita Isyka Syafika</div>
+                <div class="testimonial-role">Pembelajaran RPL</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 8. FAQ ========== -->
+  <section id="faq" class="bg-body-tertiary">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="text-center mb-5" data-aos="fade-up">
+            <div class="accent-line mx-auto"></div>
+            <h2 class="section-title">Pertanyaan yang sering muncul</h2>
+            <p class="section-subtitle">Berikut beberapa pertanyaan seputar kemampuan, teknologi, dan pengalaman saya dalam bidang pengembangan website. Saya berusaha memberikan informasi secara jujur dan transparan.</p>
+          </div>
+
+          <div class="accordion" id="faqAccordion" data-aos="fade-up">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                  Apa saja teknologi yang sedang saya pelajari?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Saya mempelajari HTML, CSS, dan JavaScript untuk pengembangan frontend, serta PHP dan MySQL untuk pengembangan backend dan pengelolaan database.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                  Apakah saya bisa membuat website dari awal?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Ya, saya sedang mengembangkan kemampuan untuk membuat website dari awal, mulai dari menyusun struktur halaman, mendesain tampilan, menambahkan interaksi, hingga menghubungkannya dengan database.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                  Apakah saya menerima proyek kolaborasi?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Saya terbuka untuk berkolaborasi dalam proyek website, baik untuk keperluan pembelajaran, pengembangan portofolio, maupun proyek sederhana bersama individu atau tim.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                  Jenis website apa saja yang bisa saya kembangkan?
+                </button>
+              </h2>
+              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Saya tertarik mengembangkan berbagai jenis website, seperti website company profile, landing page, website berita, katalog produk, dan website sederhana lainnya.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                  Apakah website yang dibuat sudah responsif untuk perangkat mobile?
+                </button>
+              </h2>
+              <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                 Saya berusaha menerapkan desain responsif agar website dapat menyesuaikan tampilannya dengan berbagai ukuran layar, baik komputer, tablet, maupun smartphone.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 9. KONTAK & LAYANAN ========== -->
+  <section id="kontak">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-5" data-aos="fade-right">
+          <div class="accent-line"></div>
+          <h2 class="section-title">Mari Berkolaborasi</h2>
+          <p class="section-subtitle">Punya ide proyek website atau ingin berdiskusi seputar teknologi? Saya terbuka untuk belajar, berkolaborasi, dan mengembangkan ide bersama.</p>
+          
+          <div class="mb-4">
+            <h6 class="fw-semibold mb-3">Bidang yang Saya Minati</h6>
+            <ul class="list-unstyled">
+              <li class="mb-2"><i class="bi bi-check2 text-accent me-2" style="color:var(--accent)"></i> Pembuatan website menggunakan HTML, CSS, dan JavaScript.</li>
+              <li class="mb-2"><i class="bi bi-check2 me-2" style="color:var(--accent)"></i> Pengembangan tampilan website (Frontend Development).</li>
+              <li class="mb-2"><i class="bi bi-check2 me-2" style="color:var(--accent)"></i> Pembuatan website responsif untuk berbagai perangkat.</li>
+              <li class="mb-2"><i class="bi bi-check2 me-2" style="color:var(--accent)"></i> Pengelolaan database menggunakan MySQL.</li>
+              <li class="mb-2"><i class="bi bi-check2 me-2" style="color:var(--accent)"></i> Pengembangan website sederhana menggunakan PHP.</li>
+               <li class="mb-2"><i class="bi bi-check2 me-2" style="color:var(--accent)"></i> Perancangan dan implementasi antarmuka website.</li>
+            </ul>
+          </div>
+
+          <div class="d-flex flex-column gap-2">
+            <a href="mailto:mahfitahaisy@gmail.com" class="text-decoration-none d-flex align-items-center gap-2">
+              <i class="bi bi-envelope" style="color:var(--accent)"></i>
+              <span>mahfitahaisy@gmail.com</span>
+            </a>
+            <a href="https://www.linkedin.com/in/aisy-mahfitah-6a008242a/" target="_blank" rel="noopener" class="text-decoration-none d-flex align-items-center gap-2">
+              <i class="bi bi-linkedin" style="color:var(--accent)"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener" class="text-decoration-none d-flex align-items-center gap-2">
+              <i class="bi bi-github" style="color:var(--accent)"></i>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-7" data-aos="fade-left">
+          <div class="contact-card">
+            <form id="contactForm" onsubmit="return handleContact(event)">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="name" class="form-label">Nama</label>
+                  <input type="text" class="form-control" id="name" required placeholder="Nama kamu">
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" required placeholder="email@contoh.com">
+                </div>
+                <div class="col-12">
+                  <label for="subject" class="form-label">Subjek</label>
+                  <select class="form-select" id="subject">
+                    <option value="project">Mau diskusikan project</option>
+                    <option value="question">Tanya-tanya dulu</option>
+                    <option value="collab">Kolaborasi</option>
+                    <option value="other">Lainnya</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Pesan</label>
+                  <textarea class="form-control" id="message" rows="4" required placeholder="Ceritain singkat apa yang kamu butuhkan..."></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-accent w-100">Kirim Pesan</button>
+                </div>
+              </div>
+            </form>
+            <div id="formSuccess" class="alert alert-success mt-3 d-none" role="alert">
+              Terima kasih! Pesanmu sudah tercatat. Saya akan balas secepatnya (biasanya dalam 1–2 hari kerja).
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-5">
+          <div class="mono fw-bold text-white mb-2">AMW<span style="color:var(--accent)">.</span></div>
+          <p class="small mb-3">Website portofolio pribadi Aisy Mahfitah Marwazi. Dibuat dengan Bootstrap 5, AOS, dan sedikit obsesi terhadap detail yang sering diabaikan.</p>
+          <div class="d-flex gap-2">
+            <a href="https://github.com" class="social-link" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/aisy-mahfitah-6a008242a/" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://instagram.com" class="social-link" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h6 class="text-white mb-3">Navigasi</h6>
+          <ul class="list-unstyled small">
+            <li class="mb-2"><a href="#tentang">Tentang</a></li>
+            <li class="mb-2"><a href="#proyek">Proyek</a></li>
+            <li class="mb-2"><a href="#pengalaman">Pengalaman</a></li>
+            <li class="mb-2"><a href="#kontak">Kontak</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h6 class="text-white mb-3">Teknologi & Kredit</h6>
+          <p class="small mb-1">Teknologi: HTML, CSS, JavaScript, PHP, dan MySQL.</p>
+          <p class="small mb-1">Framework & Library: Bootstrap 5 dan AOS.</p>
+          <p class="small mb-1">Ikon: Bootstrap Icons.</p>
+          <p class="small mb-0">Font: DM Sans & JetBrains Mono (Google Fonts).</p>
+        </div>
+      </div>
+      <hr class="my-4 border-secondary">
+      <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 small">
+        <span>© 2026 Aisy Mahfitah Marwazi.</span>
+        <span class="mono">v1.0 · SPA · Bootstrap 5</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button id="backToTop" aria-label="Kembali ke atas">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- ========== MODALS PROYEK ========== -->
+  <div class="modal fade" id="modalProyek1" tabindex="-1" aria-labelledby="modalProyek1Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalProyek1Label">BeritaKini — Portal Berita</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="beritakini.jpg" class="img-fluid rounded mb-3" alt="Preview BeritaKini">
+          <p><strong>Tahun:</strong> 2026 · <strong>Peran:</strong> Full frontend</p>
+          <p>BeritaKini adalah portal berita yang saya bangun dari nol, terdiri dari tiga halaman yang saling terhubung: beranda, halaman artikel, dan halaman kategori. Isinya 14 artikel yang tersebar di enam kategori: Politik, Ekonomi, Olahraga, Teknologi, Hiburan, dan Internasional.</p>
+          <p>Semua artikel disimpan dalam satu data yang dipakai bersama, jadi halaman artikel dan kategori dirender dari sumber yang sama. Fiturnya antara lain pencarian, filter kategori, breaking news ticker, bar progres membaca, estimasi waktu baca, tombol bagikan, dan mode gelap. Pembaca juga bisa menyukai, menyimpan, dan berkomentar di artikel. Semuanya tersimpan di browser, tanpa backend.</p>
+          <p class="mb-0"><strong>Stack:</strong> HTML, CSS, Bootstrap 5, vanilla JavaScript, AOS, localStorage.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalProyek2" tabindex="-1" aria-labelledby="modalProyek2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalProyek2Label">Sistem Absensi Sekolah</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="sekolah.png" class="img-fluid rounded mb-3" alt="Preview Sistem Absensi Sekolah">
+          <p><strong>Tahun:</strong> 2026 · <strong>Peran:</strong> Full frontend (vanilla JS)</p>
+          <p>Aplikasi absensi sekolah yang dibagi menjadi dua portal dengan login terpisah. Di portal siswa, siswa bisa absen masuk dan pulang, melihat ringkasan kehadiran (hadir, izin, sakit, alpha), membuka riwayat absensi, dan mengedit profil. Absen dibatasi jam tertentu, yaitu masuk pukul 06.00–08.00 dan pulang pukul 17.00–20.00, dan batas ini bisa dimatikan lewat satu pengaturan.</p>
+          <p>Di portal admin, ada dashboard dengan grafik status hari ini dan kehadiran 7 hari terakhir. Admin juga bisa mengelola data siswa dan absensi (tambah, ubah, hapus), mencari dan memfilter data, mengekspor laporan ke file CSV yang bisa dibuka di Excel, serta mencetak laporan. Layout sidebar-nya responsif di HP. Data disimpan di browser tanpa backend, jadi mudah dicoba langsung.</p>
+          <p class="mb-0"><strong>Stack:</strong> HTML, CSS, Bootstrap 5, vanilla JavaScript, Chart.js, localStorage.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalProyek3" tabindex="-1" aria-labelledby="modalProyek3Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalProyek3Label">Undangan Pernikahan Digital</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="m1.png" class="img-fluid rounded mb-3" alt="Preview Undangan Pernikahan Digital">
+          <p><strong>Tahun:</strong> 2026 · <strong>Peran:</strong> Full frontend</p>
+          <p>Undangan pernikahan digital yang dibuat supaya terasa seperti undangan cetak, tapi lebih praktis dibagikan lewat link. Tamu pertama kali melihat layar cover dengan tombol buka undangan. Begitu dibuka, musik latar langsung diputar (bisa dimatikan lewat tombol musik) dan halaman bergulir ke bagian demi bagian: mempelai, countdown, detail acara, kisah, galeri, lokasi, dress code, hadiah, FAQ, RSVP, dan ucapan.</p>
+          <p>Nama tamu otomatis muncul di cover dari parameter link (misalnya <code>?to=Nama</code>), jadi satu halaman bisa dibagikan ke banyak orang dengan sapaan berbeda. Ada juga countdown flip menuju hari H, galeri foto yang bisa diperbesar, peta lokasi, tombol salin nomor rekening untuk hadiah digital, serta form RSVP dengan efek confetti dan ucapan yang langsung muncul di halaman. Tanpa backend, jadi ucapan hanya tampil di sesi browser itu.</p>
+          <p class="mb-0"><strong>Stack:</strong> HTML, CSS, Bootstrap 5, vanilla JavaScript, AOS, Google Fonts.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalProyek4" tabindex="-1" aria-labelledby="modalProyek4Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalProyek4Label">GrokStore — Toko Gadget</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="grokstore.png" class="img-fluid rounded mb-3" alt="Preview GrokStore">
+          <p><strong>Tahun:</strong> 2026 · <strong>Peran:</strong> Full frontend (vanilla JS)</p>
+          <p>GrokStore adalah toko gadget online simulasi dengan tampilan yang tegas dan tidak seperti template: kartu produk berbentuk label harga, bayangan tebal, dan warna biru kobalt dengan aksen kuning. Data produk diambil langsung dari API publik dummyjson.com, lalu harganya dikonversi ke rupiah dengan kurs tetap. Karena itu setiap kartu menampilkan harga coret dan harga akhir yang jelas.</p>
+          <p>Halaman utamanya berisi kategori yang menyaring daftar produk, flash sale dengan countdown, semua produk dengan tombol muat lebih banyak, produk terlaris berdasarkan rating, produk diskon, dan pencarian ke endpoint API. Setiap produk punya modal detail. Keranjang disimpan di browser sehingga tidak hilang saat halaman di-refresh, dengan halaman keranjang untuk mengatur jumlah barang. Halaman checkout punya validasi form, pilihan ongkir reguler atau kilat, dan ringkasan total. Tidak ada pembayaran atau pengiriman nyata karena ini proyek simulasi.</p>
+          <p class="mb-0"><strong>Stack:</strong> HTML, CSS, Bootstrap 5, vanilla JavaScript, AOS, fetch API, localStorage.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalProyek5" tabindex="-1" aria-labelledby="modalProyek5Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalProyek5Label">CuacaID — Prakiraan Cuaca</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="cuaca.jpg" class="img-fluid rounded mb-3" alt="Preview CuacaID">
+          <p><strong>Tahun:</strong> 2026 · <strong>Peran:</strong> Full frontend (vanilla JS)</p>
+          <p>CuacaID adalah website prakiraan cuaca real-time yang berfokus pada wilayah Indonesia. Pengguna bisa mencari cuaca berdasarkan nama kota atau memakai lokasi perangkat lewat geolocation. Hasilnya menampilkan suhu, rasa suhu, kelembapan, angin, jarak pandang, tekanan, tutupan awan, dan kualitas udara (AQI) dengan label yang mudah dibaca. Riwayat pencarian tersimpan di browser, jadi kota yang pernah dicari bisa dipilih lagi.</p>
+          <p>Di halaman utamanya ada cuaca lima kota besar (Jakarta, Surabaya, Bandung, Medan, Makassar), prakiraan per jam yang bisa digeser ke samping, dan prakiraan lima hari ke depan. Ada juga peta lokasi OpenStreetMap dan info gempa terkini dari BMKG. Pengguna bisa mengganti satuan °C dan °F serta beralih ke mode gelap. Pilihan itu diingat saat halaman dibuka lagi. Tampilannya memakai efek parallax pada hero, ScrollSpy di navbar, dan layout responsif.</p>
+          <p class="mb-0"><strong>Stack:</strong> HTML, CSS, Bootstrap 5, vanilla JavaScript, OpenWeatherMap API, data terbuka BMKG, OpenStreetMap.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalProyek6" tabindex="-1" aria-labelledby="modalProyek6Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalProyek6Label">RasaNusantara — Resep Masakan</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="resep.png" class="img-fluid rounded mb-3" alt="Preview RasaNusantara">
+          <p><strong>Tahun:</strong> 2026 · <strong>Peran:</strong> Full frontend (vanilla JS)</p>
+          <p>RasaNusantara adalah website resep masakan modern yang mengambil data dari TheMealDB API. Pengguna bisa mencari resep, memfilter berdasarkan kategori (Chicken, Seafood, Dessert, dll.), melihat resep terbaru dan populer, serta membuka detail lengkap di modal: daftar bahan dengan takaran, langkah memasak, area/asal resep, dan link video YouTube jika tersedia.</p>
+          <p>Fitur utama meliputi hero parallax, navbar search, loading state, empty state, dan desain responsif dengan Bootstrap 5 + AOS. Semua data di-fetch secara real-time, tanpa backend sendiri.</p>
+          <p class="mb-0"><strong>Stack:</strong> HTML, CSS, Bootstrap 5, vanilla JavaScript, TheMealDB API, AOS.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
